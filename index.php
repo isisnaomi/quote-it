@@ -14,7 +14,7 @@
               <img v-bind:src="image" class="quote-image" />
 
               <span class="quote_text" v-html="quote_text"></span>
-              <span v-html="quote_title"></span>
+              <span class="quote_title" v-html="quote_title"></span>
               <br />
               <button class="quote-button" v-on:click="fetchQuote">New quote</button>
               <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
